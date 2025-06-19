@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Will Rosenberg</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Will Rosenberg</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Will Rosenberg © {year}</copyright>
+    <lastBuildDate>Sun, 27 Apr 2025 13:40:39 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>segvroad writeup - b01lers 2025</title>
+      <link>http://localhost:1313/posts/segvroad_boilers25/</link>
+      <pubDate>Sun, 27 Apr 2025 13:40:39 -0500</pubDate>
+      <guid>http://localhost:1313/posts/segvroad_boilers25/</guid>
+      <description>Writeup for segvroad rev challenge - b01lers 2025</description>
+    </item>
+  </channel>
+</rss>

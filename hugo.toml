@@ -1,0 +1,48 @@
+baseURL = 'https://will-rosenberg.com/'
+languageCode = 'en-us'
+title = "Will Rosenberg"
+theme = 'not-much'
+copyright = 'Will Rosenberg © {year}'
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+palette = "eink"
+showThemeNotice = true
+showPostsSummary = true
+
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "cv"
+    title = "CV"
+    url = "/cv.pdf"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "Contact"
+    url = "/#Contact"
+    weight = 4

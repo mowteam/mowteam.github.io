@@ -49,4 +49,4 @@ showPostsSummary = true
     name = "contact"
     title = "Contact"
     url = "/#Contact"
-    weight = 5
+    weight = 4

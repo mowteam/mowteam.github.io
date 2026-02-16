@@ -4,7 +4,7 @@ title = 'segvroad writeup - b01lers 2025'
 description = "segvroad writeup"
 keywords = ["b01lers"]
 tags = ["ctf", "rev"]
-summary = "Writeup for segvroad rev challenge - b01lers 2025"
+summary = "writeup for segvroad rev challenge - b01lers 2025"
 +++
 
 # Challenge: segvroad - reversing

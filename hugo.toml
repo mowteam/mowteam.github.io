@@ -2,21 +2,26 @@ baseURL = 'https://will-rosenberg.com/'
 languageCode = 'en-us'
 title = "Will Rosenberg"
 theme = 'not-much'
-copyright = 'Will Rosenberg © {year}'
+copyright = 'mowteam © {year}'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
 [markup]
-  [markup.highlight]
-    style = 'dracula'
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+   [markup.goldmark]
+    [markup.goldmark.extensions]
+      unsafe = false
+      linkify = false
+   [markup.highlight]
+      style = "monokai"
+      noClasses = true
+      lineNos = false
+      guessSyntax = true
 
 
 [params]
+theme = "dark"
 palette = "eink"
 showThemeNotice = true
 showPostsSummary = true

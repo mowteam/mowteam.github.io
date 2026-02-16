@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Will Rosenberg</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Will Rosenberg © {year}</copyright>
+    <copyright>mowteam © {year}</copyright>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

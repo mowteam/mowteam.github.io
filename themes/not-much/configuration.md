@@ -74,8 +74,8 @@ Use the `theme` site param to specify the theme style and `palette` site param t
 <kbd>config.toml</kbd>
 ```toml
 [params]
-theme = "dark"
-palette = "default"
+theme = "light"
+palette = "solarized"
 ```
 
 | Param | Allowed values |

@@ -82,10 +82,26 @@ code {
   font-family: 'Red Hat Mono', serif !important;
 }
 
-code:not(.highlight *) {
+code:not(pre code) {
   color: var(--secondary);
   font-weight: 600;
   user-select: all;
+  background-color: var(--bg-variant);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: var(--bg-variant);
+  border-radius: 5px;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+.highlight {
+  background-color: var(--bg-variant);
+  border-radius: 5px;
+  overflow-x: auto;
 }
 
 .highlight > div {

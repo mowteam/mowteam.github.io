@@ -43,10 +43,10 @@ showPostsSummary = true
     weight = 2
 
   [[menu.main]]
-    identifier = "cv"
-    name = "cv"
-    title = "CV"
-    url = "/cv.pdf"
+    identifier = "resume"
+    name = "resume"
+    title = "Resume"
+    url = "/resume.pdf"
     weight = 3
   
   [[menu.main]]
